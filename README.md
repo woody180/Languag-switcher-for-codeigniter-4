@@ -1,2 +1,2 @@
 # Languag-switcher-for-codeigniter-4
-Languag switcher for codeigniter
+Languag switcher for codeigniter 4
