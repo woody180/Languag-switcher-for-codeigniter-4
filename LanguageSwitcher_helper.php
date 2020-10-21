@@ -145,10 +145,8 @@ class LanguageSwitcher {
     }
 
 
-    public static function translate($defLang, $translation) {
-
-        $word = self::default()['code'] == self::active() ? $defLang : $translation;
-        return $word;
+    public static function translate(array $languages) {        
+        return $languages[self::default()['code']];
     }
 
 }
