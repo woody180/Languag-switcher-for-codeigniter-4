@@ -38,9 +38,11 @@ LanguageSwitcher::isset();
 
 
 ### Inline translation
-First argument is default language and second is translation
 ```
-LanguageSwitcher::translate('Read more...', 'Weiterlesen...');
+LanguageSwitcher::translate([
+    'en' => 'Read more...',
+    'de' => 'Weiterlesen...'
+]);
 ```
 
 
