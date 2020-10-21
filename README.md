@@ -1,4 +1,17 @@
 # Setup language base
+Files Structure
+```
+    .
+    ├── ...
+    ├── App                    
+    |    ├── Commands          
+    .    |      └── Lang.php      
+         ├── Helpers                
+         |      └── LanguageSwitcher_helper.php
+         └── ...
+```
+
+### Init languages
 ```
 LanguageSwitcher::set([
     ['code' => 'en', 'name' => 'English', 'default' => 1],
