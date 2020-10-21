@@ -28,11 +28,18 @@ LanguageSwitcher::switch('de');
 ```
 // List all languages
 LanguageSwitcher::list();
+```
 
 ### Check if languages isset.
-```
 // List all languages
 LanguageSwitcher::isset();
+
+
+### Inline translation
+First argument is default language and second is translation
+```
+LanguageSwitcher::translate('Read more...', 'Weiterlesen...');
+```
 
 
 ### Append new language.
