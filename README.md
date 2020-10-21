@@ -32,7 +32,9 @@ LanguageSwitcher::list();
 
 ### Check if languages isset.
 // List all languages
+```
 LanguageSwitcher::isset();
+```
 
 
 ### Inline translation
