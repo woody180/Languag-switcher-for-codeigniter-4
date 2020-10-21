@@ -146,7 +146,7 @@ class LanguageSwitcher {
 
 
     public static function translate(array $languages) {        
-        return $languages[self::default()['code']];
+        return $languages[self::active()];
     }
 
 }
