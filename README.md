@@ -10,7 +10,8 @@ Files Structure
          |      └── LanguageSwitcher_helper.php
          └── ...
 ```
-
+[CLI Manual](./CLI_manual.md)
+---
 ### Init languages
 ```
 LanguageSwitcher::set([
